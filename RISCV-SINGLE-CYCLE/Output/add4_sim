@@ -1,0 +1,47 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002388ea75fc0 .scope module, "add4_tb" "add4_tb" 2 1;
+ .timescale 0 0;
+v000002388ea76380_0 .var "pc_in", 31 0;
+v000002388ea27e70_0 .net "pc_out", 31 0, L_000002388ea27f10;  1 drivers
+S_000002388ea76150 .scope module, "uut" "add4" 2 5, 3 1 0, S_000002388ea75fc0;
+ .timescale 0 0;
+    .port_info 0 /INPUT 32 "pc_in";
+    .port_info 1 /OUTPUT 32 "pc_out";
+L_000002388eabb828 .functor BUFT 1, C4<00000000000000000000000000000100>, C4<0>, C4<0>, C4<0>;
+v000002388ea43340_0 .net/2u *"_ivl_0", 31 0, L_000002388eabb828;  1 drivers
+v000002388ea42910_0 .net "pc_in", 31 0, v000002388ea76380_0;  1 drivers
+v000002388ea762e0_0 .net "pc_out", 31 0, L_000002388ea27f10;  alias, 1 drivers
+L_000002388ea27f10 .arith/sum 32, v000002388ea76380_0, L_000002388eabb828;
+    .scope S_000002388ea75fc0;
+T_0 ;
+    %vpi_call 2 12 "$dumpfile", "Dumpfiles/add4.vcd" {0 0 0};
+    %vpi_call 2 13 "$dumpvars", 32'sb00000000000000000000000000000000, S_000002388ea75fc0 {0 0 0};
+    %pushi/vec4 2, 0, 32;
+    %store/vec4 v000002388ea76380_0, 0, 32;
+    %delay 10, 0;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v000002388ea76380_0, 0, 32;
+    %delay 10, 0;
+    %pushi/vec4 10, 0, 32;
+    %store/vec4 v000002388ea76380_0, 0, 32;
+    %delay 10, 0;
+    %pushi/vec4 15, 0, 32;
+    %store/vec4 v000002388ea76380_0, 0, 32;
+    %delay 10, 0;
+    %vpi_call 2 18 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Testbench/add4_tb.v";
+    "Components/add4.v";

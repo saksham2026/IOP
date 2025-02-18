@@ -1,0 +1,74 @@
+$date
+	Wed Feb 19 03:07:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module register_tb $end
+$var wire 32 ! data_out [31:0] $end
+$var reg 1 " clk $end
+$var reg 32 # data_in [31:0] $end
+$var reg 1 $ read_reg $end
+$var reg 1 % reset $end
+$var reg 1 & write_reg $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 32 ' data_in [31:0] $end
+$var wire 1 $ read_reg $end
+$var wire 1 % reset $end
+$var wire 1 & write_reg $end
+$var reg 32 ( data [31:0] $end
+$var reg 32 ) data_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bz )
+bx (
+b0 '
+0&
+0%
+0$
+b0 #
+0"
+bz !
+$end
+#5
+b0 (
+1%
+1"
+#10
+b1 #
+b1 '
+0%
+0"
+#15
+1"
+#20
+0"
+1&
+#25
+b1 (
+1"
+#30
+b1 !
+b1 )
+0"
+1$
+0&
+#35
+1"
+#40
+bz !
+bz )
+0"
+0$
+#45
+1"

@@ -1,7 +1,7 @@
 module instruction_memory(
     input wire clk,
     input wire reset,
-    input wire chip_select,
+    input wire chip_select_i,
     input wire [31:0] address,
     output reg [31:0] instruction
 );
@@ -20,7 +20,7 @@ module instruction_memory(
                             mem[i] <= 32'b0;
                     end
             end
-        always@(chip_select,address)
+        always@(chip_select_i,address)
             begin
                 if(chip_select == 1'b1)
                     begin

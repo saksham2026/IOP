@@ -1,4 +1,5 @@
 module instruction_memory(
+    input wire clk,
     input wire reset,
     input wire chip_select,
     input wire [31:0] address,
@@ -11,9 +12,9 @@ module instruction_memory(
             begin
                 $readmemh("E:/Verilog/IOP/instruction.mif",mem);
             end
-        always@(posedge reset and chip_select == 1'b1)
+        always@(posedge clk)
             begin
-                if(reset == 1'b1)
+                if(chip_select == 1'b1 && reset==1'b1)
                     begin
                         for(i=0;i<1024;i=i+1)
                             mem[i] <= 32'b0;

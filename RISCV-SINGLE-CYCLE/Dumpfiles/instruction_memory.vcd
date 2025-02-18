@@ -1,0 +1,81 @@
+$date
+	Tue Feb 18 17:18:42 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module instruction_memory_tb $end
+$var wire 32 ! instruction [31:0] $end
+$var reg 32 " address [31:0] $end
+$var reg 1 # chip_select $end
+$var reg 1 $ reset $end
+$scope module instruction_memory_0 $end
+$var wire 32 % address [31:0] $end
+$var wire 1 # chip_select $end
+$var wire 1 $ reset $end
+$var reg 32 & instruction [31:0] $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b10010011 &
+b0 %
+0$
+1#
+b0 "
+b10010011 !
+$end
+#20
+b100110011 !
+b100110011 &
+b100 "
+b100 %
+#30
+b10011 !
+b10011 &
+b1000 "
+b1000 %
+#40
+b1100011 !
+b1100011 &
+b1100 "
+b1100 %
+#50
+b110010011 !
+b110010011 &
+b10000 "
+b10000 %
+#60
+b10010011 !
+b10010011 &
+b10100 "
+b10100 %
+#70
+b100110011 !
+b100110011 &
+b11000 "
+b11000 %
+#80
+b1100010011 !
+b1100010011 &
+b11100 "
+b11100 %
+#90
+bx !
+bx &
+b100000 "
+b100000 %
+#100
+bz !
+bz &
+0#
+#110

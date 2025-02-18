@@ -17,6 +17,15 @@ This tutorial will explain how to use these **testbenches** and **`.vcd` files**
 
 ## INSTALLING GTKWAVE AND ICARUS VERILOG.
 
+### WINDOWS
+
+- `ICARUS VERILOG` → https://bleyer.org/icarus/
+
+This will install both gtkwave and icarus verilog. I will suggest windows users to 
+use VS code as the code editor.
+
+### LINUX
+
 First update the apt by writing the following command in the terminal:
 
 ```bash
@@ -36,10 +45,33 @@ sudo apt-get install gtkwave
 ```
 
 
+## 🔹 Clone the Repository
+
+To clone this repository, run the following command in your terminal:
+
+```bash
+git clone https://github.com/saksham2026/IOP.git
+```
+
+## Simulation
+
+```bash
+iverilog -o Output/moduleName_sim Testbench/moduleName_tb.v Components/moduleName.v
+vvp Output/moduleName_sim
+```
+
+This will give you the display results, if there were any in the testbench.
+After this run the following command to see the simulation:
+
+```bash
+gtkwave Dumpfiles/moduleName_tb.vcd
+```
+
+
 
 ## 🖩 ALU (Arithmetic Logic Unit)
 
-### 🔹 **Inputs**
+### 🔹 **INPUTS**
 
 The ALU takes two **32-bit operands** as inputs along with a **4-bit `aluControl` signal**, which determines the operation.
 
@@ -47,7 +79,7 @@ The ALU takes two **32-bit operands** as inputs along with a **4-bit `aluControl
 - `operandB` → Second operand (32-bit)
 - `aluControl` → Operation selector (4-bit)
 
-### 🔹 **Output**
+### 🔹 **OUTPUTS**
 
 The ALU produces a **32-bit result** based on the operation.
 
@@ -72,29 +104,18 @@ The ALU can perform **10 operations**, determined by the `aluControl` signal:
 
 ---
 
-### 🔹 Clone the Repository
+## 🖩 INSTRUCTION MEMORY
 
-To clone this repository, run the following command in your terminal:
+### 🔹 **INPUTS**
+- `reset` → initialize instruction memory to zero
+- `chip_select` → for any operation on the chip, this should be high
+- `address` → 32'b address of the instruction to be fetched
 
-```bash
-git clone https://github.com/saksham2026/IOP.git
-```
+### 🔹 **OUTPUTS**
 
-### Simulation
+- `instruction` → 32'b fetched instruction
 
-```bash
-iverilog -o Output/moduleName_sim Testbench/moduleName_tb.v Components/moduleName.v
-vvp Output/moduleName_sim
-```
-
-This will give you the display results, if there were any in the testbench.
-After this run the following command to see the simulation:
-
-```bash
-gtkwave Dumpfiles/moduleName_tb.vcd
-```
-
----
+Instruction memory is a Read Only Memory. We have used .mif file to initialize it.
 
 ## 🔗 **Resources**
 

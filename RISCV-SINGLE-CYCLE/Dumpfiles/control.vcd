@@ -1,0 +1,168 @@
+$date
+	Thu Feb 20 18:32:55 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module control_tb $end
+$var wire 1 ! write_enable_d $end
+$var wire 1 " write_enable $end
+$var wire 32 # write_data [31:0] $end
+$var wire 5 $ write_addr [4:0] $end
+$var wire 1 % read_enable_d $end
+$var wire 1 & read_enable $end
+$var wire 5 ' read_addr2 [4:0] $end
+$var wire 5 ( read_addr1 [4:0] $end
+$var wire 32 ) pc_out [31:0] $end
+$var wire 32 * data_to_m [31:0] $end
+$var wire 1 + chip_select_d $end
+$var wire 4 , alu_op [3:0] $end
+$var wire 32 - address [31:0] $end
+$var reg 32 . data1 [31:0] $end
+$var reg 32 / data2 [31:0] $end
+$var reg 32 0 data_f_alu [31:0] $end
+$var reg 32 1 data_m [31:0] $end
+$var reg 32 2 instruction [31:0] $end
+$var reg 32 3 pc_in [31:0] $end
+$var integer 32 4 right [31:0] $end
+$scope module dut $end
+$var wire 32 5 data1 [31:0] $end
+$var wire 32 6 data2 [31:0] $end
+$var wire 32 7 data_f_alu [31:0] $end
+$var wire 32 8 data_m [31:0] $end
+$var wire 32 9 instruction [31:0] $end
+$var wire 32 : pc_in [31:0] $end
+$var wire 5 ; rs2 [4:0] $end
+$var wire 5 < rs1 [4:0] $end
+$var wire 5 = rd [4:0] $end
+$var wire 7 > opcode [6:0] $end
+$var wire 7 ? funct7 [6:0] $end
+$var wire 3 @ funct3 [2:0] $end
+$var reg 32 A address [31:0] $end
+$var reg 4 B alu_op [3:0] $end
+$var reg 1 + chip_select_d $end
+$var reg 32 C data_to_m [31:0] $end
+$var reg 32 D immediate [31:0] $end
+$var reg 32 E pc_out [31:0] $end
+$var reg 5 F read_addr1 [4:0] $end
+$var reg 5 G read_addr2 [4:0] $end
+$var reg 1 & read_enable $end
+$var reg 1 % read_enable_d $end
+$var reg 5 H write_addr [4:0] $end
+$var reg 32 I write_data [31:0] $end
+$var reg 1 " write_enable $end
+$var reg 1 ! write_enable_d $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 I
+b1 H
+b1 G
+b10 F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b110011 >
+b1 =
+b10 <
+b1 ;
+b0 :
+b100010000000010110011 9
+b0 8
+b0 7
+b0 6
+b0 5
+bx 4
+b0 3
+b100010000000010110011 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+0+
+b0 *
+b0 )
+b10 (
+b1 '
+1&
+0%
+b1 $
+b0 #
+1"
+0!
+$end
+#1
+b1 4
+#11
+b1 ,
+b1 B
+b100000 ?
+b1000000000100010000000010110011 2
+b1000000000100010000000010110011 9
+#22
+b101 ,
+b101 B
+b1 @
+b0 ?
+b100010001000010110011 2
+b100010001000010110011 9
+#23
+b0 4
+#33
+b1001 ,
+b1001 B
+b10 @
+b100010010000010110011 2
+b100010010000010110011 9
+#44
+b1000 ,
+b1000 B
+b11 @
+b100010011000010110011 2
+b100010011000010110011 9
+#55
+b100 ,
+b100 B
+b100 @
+b100010100000010110011 2
+b100010100000010110011 9
+#66
+b110 ,
+b110 B
+b101 @
+b100010101000010110011 2
+b100010101000010110011 9
+#77
+b111 ,
+b111 B
+b100000 ?
+b1000000000100010101000010110011 2
+b1000000000100010101000010110011 9
+#88
+b11 ,
+b11 B
+b110 @
+b0 ?
+b100010110000010110011 2
+b100010110000010110011 9
+#99
+b10 ,
+b10 B
+b111 @
+b100010111000010110011 2
+b100010111000010110011 9
+#110

@@ -26,9 +26,9 @@ module control(
                 7'b0010111: immediate <= {instruction[31:12], 12'b0}; // U-Type
                 7'b1100011: begin if(funct3 == 3'b111 || funct3 == 3'b110) immediate <= {20'b0,instruction[31], instruction[7], instruction[30:25], instruction[11:8], 1'b0}; else immediate <= {{20{instruction[31]}},instruction[31], instruction[7], instruction[30:25], instruction[11:8], 1'b0}; end // B-Type
                 7'b1101111: immediate <= {{12{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0}; // J-Type
-                7'b1100111: immediate <= { {20{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0}; // I-Type
-                7'b0000011: immediate <= { {20{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0}; // I-Type
-                7'b0100011: immediate <= { {20{instruction[31]}}, instruction[31:25], instruction[11:7], 1'b0}; // S-Type
+                7'b1100111: immediate <= { {20{instruction[31]}},instruction[31:20]}; // I-Type
+                7'b0000011: immediate <= { {20{instruction[31]}},instruction[31:20]}; // I-Type
+                7'b0100011: immediate <= { {20{instruction[31]}}, instruction[31:25], instruction[11:7]}; // S-Type
                 7'b0110111: immediate <= {instruction[31:12], 12'b0}; // U-Type
                 default: immediate <= 32'b0;
             endcase
@@ -46,10 +46,6 @@ module control(
     wire [4:0] rd;
     assign rd = instruction[11:7];
 
-    always@(*)
-        begin
-
-        end
      always@(*)
          begin
             alu_op <= 4'b0000;
@@ -108,7 +104,7 @@ module control(
                         write_data <= pc_in + immediate;
                         alu_op <= 4'b0000;
                         write_enable <= 1'b1;
-                        read_enable <= 1'b1;
+                        read_enable <= 1'b0;
                         read_addr1 <= rs1;
                         read_addr2 <= 5'b00000;
                         write_enable_d <= 1'b0;
@@ -180,7 +176,7 @@ module control(
                     write_addr <= rd;
                     address <= data1 + immediate;
                     alu_op <= 4'b0000;
-                    write_enable <= 1'b0;
+                    write_enable <= 1'b1;
                     read_enable_d <= 1'b0;
                     data_to_m <= 32'b0;
                     pc_out <= 32'b0;
@@ -206,14 +202,14 @@ module control(
                 end
                 7'b0100011: begin // S-Type
                     read_enable <= 1'b1;
-                    read_enable_d <= 1'b1;
+                    read_enable_d <= 1'b0;
                     chip_select_d <= 1'b1;
                     read_addr1 <= rs1;
                     read_addr2 <= rs2;
                     address <= data1 + immediate;
                     alu_op <= 4'b0000;
                     write_enable <= 1'b0;
-                    write_enable_d <= 1'b0;
+                    write_enable_d <= 1'b1;
                     pc_out <= 32'b0;
                     write_addr <= 5'b00000;
                     write_data <= 0;

@@ -14,7 +14,7 @@ module instruction_memory(
             end
         always@(posedge clk)
             begin
-                if(chip_select == 1'b1 && reset==1'b1)
+                if(chip_select_i == 1'b1 && reset==1'b1)
                     begin
                         for(i=0;i<1024;i=i+1)
                             mem[i] <= 32'b0;
@@ -22,7 +22,7 @@ module instruction_memory(
             end
         always@(chip_select_i,address)
             begin
-                if(chip_select == 1'b1)
+                if(chip_select_i == 1'b1)
                     begin
                         instruction <= mem[address[31:2]]; // Word Addressable Memory as Instruction are of word size
                     end

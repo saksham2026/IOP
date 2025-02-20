@@ -3,13 +3,13 @@ module data_memory(
     input wire chip_select_d,
     input wire reset,
     input wire [31:0] address,
-    input wire [7:0] write_data,
+    input wire [31:0] write_data,
     input wire write_enable,
     input wire read_enable,
-    output reg [7:0] read_data
+    output reg [31:0] read_data
 );
 
-    reg [7:0] memory [0:511];
+    reg [31:0] memory [0:511];
     integer i;
 
     always @(posedge clk) begin // Write operation

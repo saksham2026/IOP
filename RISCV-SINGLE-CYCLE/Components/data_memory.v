@@ -1,6 +1,5 @@
 module data_memory(
     input wire clk,
-    input wire chip_select_d,
     input wire reset,
     input wire [31:0] address,
     input wire [31:0] write_data,
@@ -13,18 +12,18 @@ module data_memory(
     integer i;
 
     always @(posedge clk) begin // Write operation
-        if (reset == 1'b1 && chip_select_d == 1'b1) begin
+        if (reset == 1'b1) begin
             for (i = 0; i < 512; i = i + 1) begin
                 memory[i] <= 8'b0;
             end
-        end else if (write_enable == 1'b1 && chip_select_d == 1'b1) begin
+        end else if (write_enable == 1'b1) begin
             memory[address] <= write_data;
         end
     end
 
    always@(address,read_enable) // Read operation
             begin
-                if(read_enable == 1'b1 && chip_select_d == 1'b1)
+                if(read_enable == 1'b1)
                     begin
                     read_data <= memory[address];
                     end

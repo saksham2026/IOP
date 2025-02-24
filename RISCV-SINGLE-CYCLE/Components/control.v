@@ -5,7 +5,7 @@ module control(
     // Signals from/to program_counter
     input wire [31:0] address_from_pc, // input for program counter
     output reg [31:0] address_to_pc_from_control, // output from program counter
-    output reg addr_sel_for_pc; // Whether pc is simply incremented or obtained from the decode immediate
+    output reg addr_sel_for_pc, // Whether pc is simply incremented or obtained from the decode immediate
 
     // Signals from/to data_memory
     output reg write_enable_data_mem, // write enable for data memory
@@ -25,10 +25,10 @@ module control(
     output reg [31:0] write_data_rd, // data to rd
 
     // Signals from/to alu
-    output reg [3:0] alu_op
+    output reg [3:0] alu_op,
     output reg [31:0] data_for_alu, // immediate data to alu
     output reg sel_for_alu, // select signal for alu operandB
-    input wire [31:0] data_from_alu, // data from alu
+    input wire [31:0] data_from_alu // data from alu
 );
     reg [31:0] immediate;
     always@(*)
@@ -37,16 +37,16 @@ module control(
                 7'b0010011: immediate <= {{20{instruction[31]}},instruction[31:20]}; // ADDI, ANDI, ORI, XORI, SLTI, SLTIU 
                 // Count = 6
 
-                7'b0010111: immediate <= {instruction[31:20],12'b0}; // AUIPC 
+                7'b0010111: immediate <= {instruction[31:12],12'b0}; // AUIPC 
                 // Count = 1
 
-                7'b1100011: immediate <= {{20{insruction[31]}},instruction[7],instruction[30:25],insruction[11:8],1'b0}; // BEQ, BGE, BGEU, BNE, BLT, BLTU
+                7'b1100011: immediate <= {{20{instruction[31]}},instruction[7],instruction[30:25],instruction[11:8],1'b0}; // BEQ, BGE, BGEU, BNE, BLT, BLTU
                 // Count = 6
 
                 7'b1101111: immediate <= {{12{instruction[31]}}, instruction[19:12], instruction[20], instruction[30:21], 1'b0}; // JAL
                 // Count = 1
 
-                7'b1100111: immediate <= { {19{instruction[31]}},instruction[31:20],1'b0}; // JALR
+                7'b1100111: immediate <= { {20{instruction[31]}},instruction[31:20]}; // JALR
                 // Count = 1
 
                 7'b0000011: immediate <= { {20{instruction[31]}},instruction[31:20]}; // LB, LBU, LH, LHU, LW
@@ -57,7 +57,7 @@ module control(
 
                 7'b0110111: immediate <= {instruction[31:12], 12'b0}; // LUI
                 // Count = 1
-                default: immediate <= 32'bz;
+                default: immediate <= 32'b0;
             endcase
     end
     wire [6:0] opcode; // 7 bit opcode decoded from 32 bit instruction
@@ -80,13 +80,13 @@ module control(
 
      always@(*)
          begin
-                      data_for_alu <= immediate;
+                      data_for_alu <= 32'b0;
                       read_addr_rs2 <= rs2;
                       read_addr_rs1 <= rs1;
                       write_addr_register_file <= rd;
                       write_enable_register_file <= 1'b0;
                       read_enable_register_file <= 1'b0;
-                      write_data_rd <= immediate + address_from_pc;
+                      write_data_rd <= 1'b0;
                       sel_for_alu <= 1'b0; // alu operandB from immediate
                       alu_op <= 5'b0; // Not required
                       address_to_pc_from_control <= 32'b0;
@@ -96,7 +96,7 @@ module control(
                       address_for_data_mem <= 32'b0;
                       data_to_mem = 32'b0;
              case(opcode)
-                 7'b0110011: // R-Type
+                 7'b0110011: // R-Type // count = 10;
                       begin
                       // signals for register_file
                       write_enable_register_file <= 1'b1;
@@ -115,7 +115,7 @@ module control(
                           default: alu_op <= 4'b0000;
                       endcase
                       end
-                7'b0010011: begin // I-Type
+                7'b0010011: begin // I-Type // Count = 16
                       write_enable_register_file <= 1'b1;
                       read_enable_register_file <= 1'b1;
                       write_data_rd <= data_from_alu;
@@ -133,18 +133,18 @@ module control(
                         default: alu_op <= 4'b0000;
                     endcase    
                 end
-                7'b0010111: begin // AUIPC
+                7'b0010111: begin // AUIPC // Count = 17
                       write_enable_register_file <= 1'b1;
                       read_enable_register_file <= 1'b0;
                       write_data_rd <= immediate + address_from_pc;
                 end
-                7'b1100011: begin // B-Type
+                7'b1100011: begin // B-Type // Count = 23
                       // Control signals for register file
                       read_enable_register_file <= 1'b1;
 
                     case(funct3)
                         3'b000: begin 
-                        if(data1 == data2) begin 
+                        if(data_from_rs1 == data_from_rs2) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -153,9 +153,10 @@ module control(
                         addr_sel_for_pc <= 1'b0; 
                         end 
                         end // BEQ
+                        
 
                         3'b101: begin 
-                        if($signed(data1) >= $signed(data2)) begin 
+                        if($signed(data_from_rs1) >= $signed(data_from_rs2)) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -166,7 +167,7 @@ module control(
                         end // BGE
 
                         3'b111: begin 
-                        if(data1 >= data2) begin 
+                        if(data_from_rs1 >= data_from_rs2) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -176,7 +177,7 @@ module control(
                         end 
                         end // BGEU
 
-                        3'b100: begin if($signed(data1) < $signed(data2)) begin 
+                        3'b100: begin if($signed(data_from_rs1) < $signed(data_from_rs2)) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -186,7 +187,7 @@ module control(
                         end 
                         end // BLT
 
-                        3'b110: begin if(data1 < data2) begin 
+                        3'b110: begin if(data_from_rs1 < data_from_rs2) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -196,7 +197,7 @@ module control(
                         end 
                         end // BLTU
 
-                        3'b001: begin if(data1 != data2) begin 
+                        3'b001: begin if(data_from_rs1 != data_from_rs2) begin 
                         address_to_pc_from_control <= address_from_pc + immediate;
                         addr_sel_for_pc <= 1'b1; 
                         end 
@@ -208,7 +209,7 @@ module control(
                         default: address_to_pc_from_control <= address_from_pc;
                     endcase
                 end
-                7'b1101111: begin // JAL
+                7'b1101111: begin // JAL // Count = 24
                       // Control signals for register file
                       write_enable_register_file <= 1'b1;
                       write_data_rd <= address_from_pc + 4;
@@ -218,7 +219,7 @@ module control(
                       addr_sel_for_pc <= 1'b1;
 
                 end
-                7'b1100111: begin // I-Type // JALR
+                7'b1100111: begin // I-Type // JALR Count = 25
                       // Control signals for register file
                       write_enable_register_file <= 1'b1;
                       read_enable_register_file <= 1'b1;

@@ -12,7 +12,7 @@ module register_file(
     output wire [31:0] a
 );
     reg [31:0] data [0:31];
-    assign a = data[31];
+    assign a = data[1];
     integer i;
     always@(posedge clk or posedge reset) begin
         if(reset == 1'b1) begin

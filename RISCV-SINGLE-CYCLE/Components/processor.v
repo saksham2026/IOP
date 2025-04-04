@@ -2,14 +2,21 @@ module processor(
     input wire clk_in,
     input wire reset,
     input wire resetC,
-    output reg verify [7:0]
+    output clkO,
+    output [31:0] x1,
+    output [31:0] x2,
+    output [31:0] x3,
+    output [31:0] x4
 );
     // related to register file
     wire clk;
-
+    assign clkO = clk;
+    
     // realted to control
     wire [31:0] address_to_pc_from_control;
     wire addr_sel_for_pc;
+ 
+    assign verify = sample[6:0];
     
     wire [31:0] sample;
     wire [31:0] address_for_data_mem;
@@ -29,16 +36,14 @@ module processor(
 
     // related to pc
     wire [31:0] pc_in;
-    wire [31:0] pc_out;
 
     // related to add4
     wire [31:0] pc_out_add;
 
     // related to ALU
     wire [31:0] operandB;
-    wire [31:0] operandA;
     wire [31:0] result;
-    wire [4:0] alu_op;
+    wire [3:0] alu_op;
     wire sel_for_alu;
     wire [31:0] data_for_alu;
 
@@ -47,7 +52,7 @@ module processor(
     wire [31:0] instruction;
 
     add4 add4_0(
-        .pc_in(pc_in),
+        .pc_in(address),
         .pc_out(pc_out_add)
     );
 
@@ -75,7 +80,10 @@ module processor(
         .write_data(write_data),
         .data_out1(data_from_rs1),
         .data_out2(data_from_rs2),
-        .sample(sample)
+        .x1(x1),
+        .x2(x2),
+        .x3(x3),
+        .x4(x4)
     );
     instruction_memory instruction_memory0(
         .instruction(instruction),
@@ -90,9 +98,9 @@ module processor(
     );
 
     alu alu0(
-        .operandA(operandA),
+        .operandA(data_from_rs1),
         .operandB(operandB),
-        .alu_op(alu_op),
+        .aluControl(alu_op),
         .result(result)
     );
 
@@ -133,9 +141,9 @@ module processor(
         .data_from_alu(result)
     );
 
-    clock_divider clocl_divider0(
+    clock_divider clock_divider0(
         .clk_in(clk_in),
-        .reset(resetC),
+        .resetC(resetC),
         .clk(clk)
     );
 endmodule

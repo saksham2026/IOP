@@ -5,7 +5,7 @@ module instruction_memory(
         reg [31:0] mem[0:1023];
         initial 
             begin
-                $readmemh("E:/Verilog/IOP/instruction.mif",mem);
+                $readmemh("C:/Users/pawan/OneDrive/Desktop/PROJECT/IOP/RISCV-SINGLE-CYCLE/instruction.mif",mem);
             end
         always@(address)
             begin

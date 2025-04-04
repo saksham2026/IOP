@@ -9,10 +9,16 @@ module register_file(
     input wire [31:0] write_data,
     output reg [31:0] data_out1,
     output reg [31:0] data_out2,
-    output wire [31:0] a
+    output wire [31:0] x1,
+    output wire [31:0] x2,
+    output wire [31:0] x3,
+    output wire [31:0] x4
 );
     reg [31:0] data [0:31];
-    assign a = data[1];
+    assign x1 = data[1];
+    assign x2 = data[2];
+    assign x3 = data[3];
+    assign x4 = data[4];
     integer i;
     always@(posedge clk or posedge reset) begin
         if(reset == 1'b1) begin

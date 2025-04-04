@@ -1,0 +1,2560 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Title    (processor)
+  /Author   (pawan)
+  /Producer (Concept Engineering GmbH)
+  /Creator  (Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38)
+  /CreationDate (D:20250324215527)
+>>
+endobj
+2 0 obj
+<<
+  /Type     /Catalog
+  /Pages    3 0 R
+  /Outlines 7 0 R
+  /PageMode /UseThumbs
+  /ViewerPreferences << /DisplayDocTitle true >>
+>>
+endobj
+4 0 obj
+<<
+  /Type     /Font
+  /Subtype  /Type1
+  /Name     /F1
+  /BaseFont /Helvetica
+  /Encoding /MacRomanEncoding
+>>
+endobj
+5 0 obj
+<<
+  /ExtGState  6 0 R
+  /Font       << /F1 4 0 R >>
+  /ColorSpace << /PCS [/Pattern /DeviceRGB] >>
+  /Pattern    8 0 R
+  /XObject    9 0 R
+>>
+endobj
+%
+% Schematic page 1
+% (user space scaling 0.284651)
+%
+10 0 obj
+<<
+  /Type      /Page
+  /Parent    3 0 R
+  /Resources 5 0 R
+  /Contents  11 0 R
+  /MediaBox  [0 0 792 612]
+  /Rotate    270
+>>
+endobj
+11 0 obj
+<<
+  /Length 17316
+>>
+stream
+1 0 0 1 0 169.033 cm
+1 0 0 1 28.8 28.8 cm
+0.284651 0 0 -0.284651 0 0 cm
+1 0 0 1 0 -760 cm
+0 0 2580 760 re
+W n
+/GS gs
+1 0 0 1 89 0 cm
+q
+1.000 1.000 1.000 rg
+/GSa0 gs
+-89 0 2580 761 re
+f
+Q
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+110 618 60 42 re
+f
+Q
+[] 0 d
+1 w
+0.000 0.000 0.000 RG
+/GSA0 gs
+110 618 60 42 re
+S
+q
+1 0 0 1 121 629 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 140 616 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-20.016 2.484 Td
+(add4_0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 140 662 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-13.344 -8.616 Td
+(add4) Tj
+ET
+Q
+3 w
+100 650 m
+110 650 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 108 649 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-48.92 2.07 Td
+(pc_in[31:0]) Tj
+ET
+Q
+180 650 m
+170 650 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 172 649 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(pc_out[31:0]) Tj
+ET
+Q
+120 650 m
+110 650 l
+S
+160 650 m
+170 650 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+1050 58 60 82 re
+f
+Q
+1 w
+1050 58 60 82 re
+S
+q
+1 0 0 1 1061 69 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 56 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-11.34 2.484 Td
+(alu0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 142 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-8.004 -8.616 Td
+(alu) Tj
+ET
+Q
+3 w
+1040 90 m
+1050 90 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 89 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-65.03 2.07 Td
+(aluControl[3:0]) Tj
+ET
+Q
+1040 110 m
+1050 110 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 109 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-68.38 2.07 Td
+(operandA[31:0]) Tj
+ET
+Q
+1040 130 m
+1050 130 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 129 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-68.38 2.07 Td
+(operandB[31:0]) Tj
+ET
+Q
+1120 110 m
+1110 110 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1112 109 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(result[31:0]) Tj
+ET
+Q
+1060 90 m
+1050 90 l
+S
+1060 110 m
+1050 110 l
+S
+1060 130 m
+1050 130 l
+S
+1100 110 m
+1110 110 l
+S
+1 w
+0 420 m
+-7 427 l
+-21 427 l
+-21 413 l
+-7 413 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 420 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-30.672 -4.308 Td
+(clk_in) Tj
+ET
+Q
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+370 398 60 62 re
+f
+Q
+370 398 60 62 re
+S
+q
+1 0 0 1 381 409 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 400 396 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-36.342 2.484 Td
+(clocl_divider0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 400 462 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-34.674 -8.616 Td
+(clock_divider) Tj
+ET
+Q
+440 430 m
+430 430 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 432 429 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(clk) Tj
+ET
+Q
+360 430 m
+370 430 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 368 429 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-25.56 2.07 Td
+(clk_in) Tj
+ET
+Q
+360 450 m
+370 450 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 368 449 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.23 2.07 Td
+(reset) Tj
+ET
+Q
+420 430 m
+430 430 l
+S
+380 430 m
+370 430 l
+S
+380 450 m
+370 450 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+1470 38 60 322 re
+f
+Q
+1470 38 60 322 re
+S
+q
+1 0 0 1 1481 49 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1500 36 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-18.006 2.484 Td
+(control) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1500 362 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-18.006 -8.616 Td
+(control) Tj
+ET
+Q
+1540 70 m
+1530 70 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 69 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(addr_sel_for_pc) Tj
+ET
+Q
+1540 230 m
+1530 230 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 229 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(read_enable_data_mem) Tj
+ET
+Q
+1540 250 m
+1530 250 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 249 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(read_enable_register_file) Tj
+ET
+Q
+1540 270 m
+1530 270 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 269 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(sel_for_alu) Tj
+ET
+Q
+1540 330 m
+1530 330 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 329 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(write_enable_data_mem) Tj
+ET
+Q
+1540 350 m
+1530 350 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 349 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(write_enable_register_file) Tj
+ET
+Q
+3 w
+1540 90 m
+1530 90 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 89 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(address_for_data_mem[31:0]) Tj
+ET
+Q
+1460 150 m
+1470 150 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 149 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-102.27 2.07 Td
+(address_from_pc[31:0]) Tj
+ET
+Q
+1540 110 m
+1530 110 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 109 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(address_to_pc_from_control[31:0]) Tj
+ET
+Q
+1540 130 m
+1530 130 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 129 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(alu_op[3:0]) Tj
+ET
+Q
+1540 150 m
+1530 150 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 149 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(data_for_alu[31:0]) Tj
+ET
+Q
+1460 170 m
+1470 170 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 169 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-88.94 2.07 Td
+(data_from_alu[31:0]) Tj
+ET
+Q
+1460 190 m
+1470 190 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 189 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-97.82 2.07 Td
+(data_from_mem[31:0]) Tj
+ET
+Q
+1460 210 m
+1470 210 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 209 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-89.49 2.07 Td
+(data_from_rs1[31:0]) Tj
+ET
+Q
+1460 230 m
+1470 230 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 229 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-89.49 2.07 Td
+(data_from_rs2[31:0]) Tj
+ET
+Q
+1540 170 m
+1530 170 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 169 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(data_to_mem[31:0]) Tj
+ET
+Q
+1460 250 m
+1470 250 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1468 249 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-70.59 2.07 Td
+(instruction[31:0]) Tj
+ET
+Q
+1540 190 m
+1530 190 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 189 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(read_addr_rs1[4:0]) Tj
+ET
+Q
+1540 210 m
+1530 210 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 209 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(read_addr_rs2[4:0]) Tj
+ET
+Q
+1540 290 m
+1530 290 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 289 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(write_addr_register_file[4:0]) Tj
+ET
+Q
+1540 310 m
+1530 310 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1532 309 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(write_data_rd[31:0]) Tj
+ET
+Q
+1 w
+1520 70 m
+1530 70 l
+S
+1520 230 m
+1530 230 l
+S
+1520 250 m
+1530 250 l
+S
+1520 270 m
+1530 270 l
+S
+1520 330 m
+1530 330 l
+S
+1520 350 m
+1530 350 l
+S
+3 w
+1520 90 m
+1530 90 l
+S
+1480 150 m
+1470 150 l
+S
+1520 110 m
+1530 110 l
+S
+1520 130 m
+1530 130 l
+S
+1520 150 m
+1530 150 l
+S
+1480 170 m
+1470 170 l
+S
+1480 190 m
+1470 190 l
+S
+1480 210 m
+1470 210 l
+S
+1480 230 m
+1470 230 l
+S
+1520 170 m
+1530 170 l
+S
+1480 250 m
+1470 250 l
+S
+1520 190 m
+1530 190 l
+S
+1520 210 m
+1530 210 l
+S
+1520 290 m
+1530 290 l
+S
+1520 310 m
+1530 310 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+1050 458 60 142 re
+f
+Q
+1 w
+1050 458 60 142 re
+S
+q
+1 0 0 1 1061 469 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 456 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-36.678 2.484 Td
+(data_memory) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 602 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-36.678 -8.616 Td
+(data_memory) Tj
+ET
+Q
+1040 510 m
+1050 510 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 509 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-12.22 2.07 Td
+(clk) Tj
+ET
+Q
+1040 530 m
+1050 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-55.59 2.07 Td
+(read_enable) Tj
+ET
+Q
+1040 550 m
+1050 550 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 549 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.23 2.07 Td
+(reset) Tj
+ET
+Q
+1040 590 m
+1050 590 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 589 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-56.69 2.07 Td
+(write_enable) Tj
+ET
+Q
+3 w
+1040 490 m
+1050 490 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 489 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-60.59 2.07 Td
+(address[31:0]) Tj
+ET
+Q
+1120 530 m
+1110 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1112 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(read_data[31:0]) Tj
+ET
+Q
+1040 570 m
+1050 570 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 569 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-71.15 2.07 Td
+(write_data[31:0]) Tj
+ET
+Q
+1 w
+1060 510 m
+1050 510 l
+S
+1060 530 m
+1050 530 l
+S
+1060 550 m
+1050 550 l
+S
+1060 590 m
+1050 590 l
+S
+3 w
+1060 490 m
+1050 490 l
+S
+1100 530 m
+1110 530 l
+S
+1060 570 m
+1050 570 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+1050 218 60 42 re
+f
+Q
+1 w
+1050 218 60 42 re
+S
+q
+1 0 0 1 1061 229 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 216 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-55.68 2.484 Td
+(instruction_memory0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1080 262 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-52.344 -8.616 Td
+(instruction_memory) Tj
+ET
+Q
+3 w
+1040 250 m
+1050 250 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1048 249 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-60.59 2.07 Td
+(address[31:0]) Tj
+ET
+Q
+1120 250 m
+1110 250 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 1112 249 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(instruction[31:0]) Tj
+ET
+Q
+1060 250 m
+1050 250 l
+S
+1100 250 m
+1110 250 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+370 618 60 82 re
+f
+Q
+1 w
+370 618 60 82 re
+S
+q
+1 0 0 1 381 629 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 400 616 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-14.67 2.484 Td
+(mux0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 400 702 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-11.334 -8.616 Td
+(mux) Tj
+ET
+Q
+360 690 m
+370 690 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 368 689 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-12.78 2.07 Td
+(sel) Tj
+ET
+Q
+3 w
+360 650 m
+370 650 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 368 649 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-32.8 2.07 Td
+(i0[31:0]) Tj
+ET
+Q
+360 670 m
+370 670 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 368 669 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-32.8 2.07 Td
+(i1[31:0]) Tj
+ET
+Q
+440 670 m
+430 670 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 432 669 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(y[31:0]) Tj
+ET
+Q
+1 w
+380 690 m
+370 690 l
+S
+3 w
+380 650 m
+370 650 l
+S
+380 670 m
+370 670 l
+S
+420 670 m
+430 670 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+650 278 60 82 re
+f
+Q
+1 w
+650 278 60 82 re
+S
+q
+1 0 0 1 661 289 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 680 276 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-14.67 2.484 Td
+(mux1) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 680 362 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-11.334 -8.616 Td
+(mux) Tj
+ET
+Q
+640 350 m
+650 350 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 349 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-12.78 2.07 Td
+(sel) Tj
+ET
+Q
+3 w
+640 310 m
+650 310 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 309 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-32.8 2.07 Td
+(i0[31:0]) Tj
+ET
+Q
+640 330 m
+650 330 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 329 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-32.8 2.07 Td
+(i1[31:0]) Tj
+ET
+Q
+720 330 m
+710 330 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 712 329 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(y[31:0]) Tj
+ET
+Q
+1 w
+660 350 m
+650 350 l
+S
+3 w
+660 310 m
+650 310 l
+S
+660 330 m
+650 330 l
+S
+700 330 m
+710 330 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+650 478 60 82 re
+f
+Q
+1 w
+650 478 60 82 re
+S
+q
+1 0 0 1 661 489 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 680 476 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-49.02 2.484 Td
+(program_counter0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 680 562 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-45.684 -8.616 Td
+(program_counter) Tj
+ET
+Q
+640 510 m
+650 510 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 509 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-12.22 2.07 Td
+(clk) Tj
+ET
+Q
+640 550 m
+650 550 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 549 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.23 2.07 Td
+(reset) Tj
+ET
+Q
+3 w
+640 530 m
+650 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 648 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-48.92 2.07 Td
+(pc_in[31:0]) Tj
+ET
+Q
+720 530 m
+710 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 712 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(pc_out[31:0]) Tj
+ET
+Q
+1 w
+660 510 m
+650 510 l
+S
+660 550 m
+650 550 l
+S
+3 w
+660 530 m
+650 530 l
+S
+700 530 m
+710 530 l
+S
+q
+0.875 0.922 0.973 rg
+/GSa0 gs
+2160 418 60 182 re
+f
+Q
+1 w
+2160 418 60 182 re
+S
+q
+1 0 0 1 2171 429 cm
+1 0 0 1 -8 -8 cm
+16 0 0 -16 0 16 cm /Im0 Do
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2190 416 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-34.344 2.484 Td
+(register_file0) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2190 602 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-31.008 -8.616 Td
+(register_file) Tj
+ET
+Q
+2150 450 m
+2160 450 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 449 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-12.22 2.07 Td
+(clk) Tj
+ET
+Q
+2150 510 m
+2160 510 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 509 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-55.59 2.07 Td
+(read_enable) Tj
+ET
+Q
+2150 530 m
+2160 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-22.23 2.07 Td
+(reset) Tj
+ET
+Q
+2150 590 m
+2160 590 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 589 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-56.69 2.07 Td
+(write_enable) Tj
+ET
+Q
+3 w
+2230 490 m
+2220 490 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2222 489 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(a[31:0]) Tj
+ET
+Q
+2230 510 m
+2220 510 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2222 509 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(data_out1[31:0]) Tj
+ET
+Q
+2230 530 m
+2220 530 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2222 529 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(data_out2[31:0]) Tj
+ET
+Q
+2150 470 m
+2160 470 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 469 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-70.6 2.07 Td
+(read_addr1[4:0]) Tj
+ET
+Q
+2150 490 m
+2160 490 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 489 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-70.6 2.07 Td
+(read_addr2[4:0]) Tj
+ET
+Q
+2150 550 m
+2160 550 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 549 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-66.14 2.07 Td
+(write_addr[4:0]) Tj
+ET
+Q
+2150 570 m
+2160 570 l
+S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2158 569 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-71.15 2.07 Td
+(write_data[31:0]) Tj
+ET
+Q
+1 w
+2170 450 m
+2160 450 l
+S
+2170 510 m
+2160 510 l
+S
+2170 530 m
+2160 530 l
+S
+2170 590 m
+2160 590 l
+S
+3 w
+2210 490 m
+2220 490 l
+S
+2210 510 m
+2220 510 l
+S
+2210 530 m
+2220 530 l
+S
+2170 470 m
+2160 470 l
+S
+2170 490 m
+2160 490 l
+S
+2170 550 m
+2160 550 l
+S
+2170 570 m
+2160 570 l
+S
+1 w
+0 490 m
+-7 497 l
+-21 497 l
+-21 483 l
+-7 483 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 490 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-26.676 -4.308 Td
+(reset) Tj
+ET
+Q
+0 450 m
+-7 457 l
+-21 457 l
+-21 443 l
+-7 443 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 -25 450 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-35.34 -4.308 Td
+(resetC) Tj
+ET
+Q
+3 w
+2380 490 m
+2380 483 l
+2394 483 l
+2401 490 l
+2394 497 l
+2380 497 l
+h S
+q
+0.000 0.000 0.000 rg
+/GSa0 gs
+1 0 0 1 2405 490 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(verify[7:0]) Tj
+ET
+Q
+0.000 0.502 0.000 RG
+100 650 m
+20 650 l
+20 590 l
+850 590 l
+850 190 l
+1250 190 l
+1250 150 l
+1460 150 l
+S
+720 530 m
+850 530 l
+S
+850 250 m
+1040 250 l
+S
+q
+0.000 0.502 0.000 rg
+/GSa0 gs
+847 527 7 7 re
+f
+Q
+q
+0.000 0.502 0.000 rg
+/GSa0 gs
+847 247 7 7 re
+f
+Q
+1040 490 m
+930 490 l
+930 630 l
+1860 630 l
+1860 90 l
+1540 90 l
+S
+360 670 m
+270 670 l
+270 730 l
+1820 730 l
+1820 110 l
+1540 110 l
+S
+1040 90 m
+910 90 l
+910 10 l
+1740 10 l
+1740 130 l
+1540 130 l
+S
+640 330 m
+500 330 l
+500 390 l
+1840 390 l
+1840 150 l
+1540 150 l
+S
+1120 530 m
+1270 530 l
+1270 190 l
+1460 190 l
+S
+1040 110 m
+910 110 l
+910 170 l
+1290 170 l
+1290 410 l
+1940 410 l
+1940 370 l
+2360 370 l
+2360 510 l
+2230 510 l
+S
+1290 210 m
+1460 210 l
+S
+q
+0.000 0.502 0.000 rg
+/GSa0 gs
+1287 207 7 7 re
+f
+Q
+640 310 m
+560 310 l
+560 250 l
+830 250 l
+830 290 l
+1310 290 l
+S
+q
+0.000 0.502 0.000 rg
+/GSa0 gs
+1307 287 7 7 re
+f
+Q
+1460 230 m
+1310 230 l
+1310 430 l
+1980 430 l
+1980 390 l
+2340 390 l
+2340 530 l
+2230 530 l
+S
+1040 570 m
+890 570 l
+890 690 l
+1800 690 l
+1800 170 l
+1540 170 l
+S
+1120 250 m
+1460 250 l
+S
+720 330 m
+810 330 l
+810 130 l
+1040 130 l
+S
+440 670 m
+540 670 l
+540 530 l
+640 530 l
+S
+180 650 m
+360 650 l
+S
+1540 190 m
+2040 190 l
+2040 470 l
+2150 470 l
+S
+1540 210 m
+2020 210 l
+2020 490 l
+2150 490 l
+S
+1120 110 m
+1310 110 l
+1310 170 l
+1460 170 l
+S
+2230 490 m
+2380 490 l
+S
+1540 290 m
+1960 290 l
+1960 550 l
+2150 550 l
+S
+1540 310 m
+1920 310 l
+1920 570 l
+2150 570 l
+S
+1 w
+0.098 0.706 0.000 RG
+360 690 m
+290 690 l
+290 750 l
+1880 750 l
+1880 70 l
+1540 70 l
+S
+440 430 m
+500 430 l
+500 510 l
+640 510 l
+S
+500 430 m
+870 430 l
+S
+q
+0.098 0.706 0.000 rg
+/GSa0 gs
+868 428 5 5 re
+f
+Q
+q
+0.098 0.706 0.000 rg
+/GSa0 gs
+498 428 5 5 re
+f
+Q
+1040 510 m
+870 510 l
+870 410 l
+1250 410 l
+1250 450 l
+2150 450 l
+S
+0 420 m
+270 420 l
+270 430 l
+360 430 l
+S
+1040 530 m
+870 530 l
+870 650 l
+1780 650 l
+1780 230 l
+1540 230 l
+S
+1540 250 m
+2000 250 l
+2000 510 l
+2150 510 l
+S
+0 490 m
+520 490 l
+S
+q
+0.098 0.706 0.000 rg
+/GSa0 gs
+518 488 5 5 re
+f
+Q
+640 550 m
+520 550 l
+520 450 l
+810 450 l
+810 670 l
+2040 670 l
+2040 530 l
+2150 530 l
+S
+810 550 m
+1040 550 l
+S
+q
+0.098 0.706 0.000 rg
+/GSa0 gs
+808 548 5 5 re
+f
+Q
+0 450 m
+360 450 l
+S
+640 350 m
+560 350 l
+560 710 l
+1760 710 l
+1760 270 l
+1540 270 l
+S
+1040 590 m
+910 590 l
+910 430 l
+1230 430 l
+1230 470 l
+1740 470 l
+1740 330 l
+1540 330 l
+S
+1540 350 m
+1900 350 l
+1900 590 l
+2150 590 l
+S
+endstream
+endobj
+3 0 obj
+<<
+  /Type    /Pages
+  /Kids
+  [
+  10 0 R
+  ]
+  /Count   1
+  /ProcSet [ /PDF /Text /ImageB /ImageC ]
+>>
+endobj
+6 0 obj
+<<
+  /GS << /Type /ExtGState
+         /LC    0
+         /LJ    0
+         /ML    4.0
+         /ca    1.0
+         /CA    1.0
+         /AIS   false
+         /SMask /None
+  >>
+  /GSa0 << /Type /ExtGState /ca 1 >>
+  /GSA0 << /Type /ExtGState /CA 1 >>
+>>
+endobj
+15 0 obj
+<<
+  /Title  (add4_0 add4)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 71 222 118 242]
+  /Parent 14 0 R
+  /Next   16 0 R
+>>
+endobj
+16 0 obj
+<<
+  /Title  (alu0 alu)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 333 370 384 401]
+  /Parent 14 0 R
+  /Prev   15 0 R
+  /Next   17 0 R
+>>
+endobj
+17 0 obj
+<<
+  /Title  (clocl_divider0 clock_divider)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 151 278 180 305]
+  /Parent 14 0 R
+  /Prev   16 0 R
+  /Next   18 0 R
+>>
+endobj
+18 0 obj
+<<
+  /Title  (control control)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 442 307 533 407]
+  /Parent 14 0 R
+  /Prev   17 0 R
+  /Next   19 0 R
+>>
+endobj
+19 0 obj
+<<
+  /Title  (data_memory data_memory)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 332 239 390 288]
+  /Parent 14 0 R
+  /Prev   18 0 R
+  /Next   20 0 R
+>>
+endobj
+20 0 obj
+<<
+  /Title  (instruction_memory0 instruction_memory)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 335 335 390 356]
+  /Parent 14 0 R
+  /Prev   19 0 R
+  /Next   21 0 R
+>>
+endobj
+21 0 obj
+<<
+  /Title  (mux0 mux)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 149 210 185 242]
+  /Parent 14 0 R
+  /Prev   20 0 R
+  /Next   22 0 R
+>>
+endobj
+22 0 obj
+<<
+  /Title  (mux1 mux)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 229 307 265 339]
+  /Parent 14 0 R
+  /Prev   21 0 R
+  /Next   23 0 R
+>>
+endobj
+23 0 obj
+<<
+  /Title  (program_counter0 program_counter)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 224 250 272 282]
+  /Parent 14 0 R
+  /Prev   22 0 R
+  /Next   24 0 R
+>>
+endobj
+24 0 obj
+<<
+  /Title  (register_file0 register_file)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 648 239 706 299]
+  /Parent 14 0 R
+  /Prev   23 0 R
+>>
+endobj
+14 0 obj
+<<
+  /Title  (instances)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 13 0 R
+  /First  15 0 R
+  /Last   24 0 R
+  /Count  10
+  /Next   25 0 R
+>>
+endobj
+26 0 obj
+<<
+  /Title  (clk_in input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 38 292 54 296]
+  /Parent 25 0 R
+  /Next   27 0 R
+>>
+endobj
+27 0 obj
+<<
+  /Title  (reset input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 39 272 54 276]
+  /Parent 25 0 R
+  /Prev   26 0 R
+  /Next   28 0 R
+>>
+endobj
+28 0 obj
+<<
+  /Title  (resetC input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 37 283 54 288]
+  /Parent 25 0 R
+  /Prev   27 0 R
+>>
+endobj
+25 0 obj
+<<
+  /Title  (ports)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 13 0 R
+  /First  26 0 R
+  /Last   28 0 R
+  /Count  3
+  /Prev   14 0 R
+  /Next   29 0 R
+>>
+endobj
+30 0 obj
+<<
+  /Title  (verify output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 730 271 753 277]
+  /Parent 29 0 R
+>>
+endobj
+29 0 obj
+<<
+  /Title  (portBuses)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 13 0 R
+  /First  30 0 R
+  /Last   30 0 R
+  /Count  1
+  /Prev   25 0 R
+  /Next   31 0 R
+>>
+endobj
+32 0 obj
+<<
+  /Title  (addr_sel_for_pc)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 136 200 589 394]
+  /Parent 31 0 R
+  /Next   33 0 R
+>>
+endobj
+33 0 obj
+<<
+  /Title  (clk)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 179 268 666 297]
+  /Parent 31 0 R
+  /Prev   32 0 R
+  /Next   34 0 R
+>>
+endobj
+34 0 obj
+<<
+  /Title  (clk_in)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 53 291 156 294]
+  /Parent 31 0 R
+  /Prev   33 0 R
+  /Next   35 0 R
+>>
+endobj
+35 0 obj
+<<
+  /Title  (read_enable_data_mem)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 301 228 561 348]
+  /Parent 31 0 R
+  /Prev   34 0 R
+  /Next   36 0 R
+>>
+endobj
+36 0 obj
+<<
+  /Title  (read_enable_register_file)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 492 268 666 343]
+  /Parent 31 0 R
+  /Prev   35 0 R
+  /Next   37 0 R
+>>
+endobj
+37 0 obj
+<<
+  /Title  (reset)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 54 223 666 286]
+  /Parent 31 0 R
+  /Prev   36 0 R
+  /Next   38 0 R
+>>
+endobj
+38 0 obj
+<<
+  /Title  (resetC)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 54 286 156 286]
+  /Parent 31 0 R
+  /Prev   37 0 R
+  /Next   39 0 R
+>>
+endobj
+39 0 obj
+<<
+  /Title  (sel_for_alu)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 213 211 555 337]
+  /Parent 31 0 R
+  /Prev   38 0 R
+  /Next   40 0 R
+>>
+endobj
+40 0 obj
+<<
+  /Title  (write_enable_data_mem)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 312 245 549 320]
+  /Parent 31 0 R
+  /Prev   39 0 R
+  /Next   41 0 R
+>>
+endobj
+41 0 obj
+<<
+  /Title  (write_enable_register_file)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 492 245 666 314]
+  /Parent 31 0 R
+  /Prev   40 0 R
+>>
+endobj
+31 0 obj
+<<
+  /Title  (nets)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 13 0 R
+  /First  32 0 R
+  /Last   41 0 R
+  /Count  10
+  /Prev   29 0 R
+  /Next   42 0 R
+>>
+endobj
+43 0 obj
+<<
+  /Title  (@address)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 58 228 470 372]
+  /Parent 42 0 R
+  /Next   44 0 R
+>>
+endobj
+44 0 obj
+<<
+  /Title  (@address_for_data_mem)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 318 233 584 389]
+  /Parent 42 0 R
+  /Prev   43 0 R
+  /Next   45 0 R
+>>
+endobj
+45 0 obj
+<<
+  /Title  (@address_to_pc_from_control)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 130 205 573 383]
+  /Parent 42 0 R
+  /Prev   44 0 R
+  /Next   46 0 R
+>>
+endobj
+46 0 obj
+<<
+  /Title  (@alu_op)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 312 376 550 412]
+  /Parent 42 0 R
+  /Prev   45 0 R
+  /Next   47 0 R
+>>
+endobj
+47 0 obj
+<<
+  /Title  (@data_for_alu)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 195 302 578 372]
+  /Parent 42 0 R
+  /Prev   46 0 R
+  /Next   48 0 R
+>>
+endobj
+48 0 obj
+<<
+  /Title  (@data_from_mem)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 372 262 470 360]
+  /Parent 42 0 R
+  /Prev   47 0 R
+  /Next   49 0 R
+>>
+endobj
+49 0 obj
+<<
+  /Title  (@data_from_rs1)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 312 268 726 383]
+  /Parent 42 0 R
+  /Prev   48 0 R
+  /Next   50 0 R
+>>
+endobj
+50 0 obj
+<<
+  /Title  (@data_from_rs2)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 212 262 721 349]
+  /Parent 42 0 R
+  /Prev   49 0 R
+  /Next   51 0 R
+>>
+endobj
+51 0 obj
+<<
+  /Title  (@data_to_mem)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 306 216 567 366]
+  /Parent 42 0 R
+  /Prev   50 0 R
+  /Next   52 0 R
+>>
+endobj
+52 0 obj
+<<
+  /Title  (@instruction)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 372 343 469 343]
+  /Parent 42 0 R
+  /Prev   51 0 R
+  /Next   53 0 R
+>>
+endobj
+53 0 obj
+<<
+  /Title  (@operandB)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 258 319 351 378]
+  /Parent 42 0 R
+  /Prev   52 0 R
+  /Next   54 0 R
+>>
+endobj
+54 0 obj
+<<
+  /Title  (@pc_in)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 178 222 237 264]
+  /Parent 42 0 R
+  /Prev   53 0 R
+  /Next   55 0 R
+>>
+endobj
+55 0 obj
+<<
+  /Title  (@pc_out_add)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 105 229 156 229]
+  /Parent 42 0 R
+  /Prev   54 0 R
+  /Next   56 0 R
+>>
+endobj
+56 0 obj
+<<
+  /Title  (@read_addr1)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 491 279 666 360]
+  /Parent 42 0 R
+  /Prev   55 0 R
+  /Next   57 0 R
+>>
+endobj
+57 0 obj
+<<
+  /Title  (@read_addr2)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 491 273 666 355]
+  /Parent 42 0 R
+  /Prev   56 0 R
+  /Next   58 0 R
+>>
+endobj
+58 0 obj
+<<
+  /Title  (@result)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 372 364 470 383]
+  /Parent 42 0 R
+  /Prev   57 0 R
+  /Next   59 0 R
+>>
+endobj
+59 0 obj
+<<
+  /Title  (@verify)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 688 274 731 274]
+  /Parent 42 0 R
+  /Prev   58 0 R
+  /Next   60 0 R
+>>
+endobj
+60 0 obj
+<<
+  /Title  (@write_addr)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 491 256 666 332]
+  /Parent 42 0 R
+  /Prev   59 0 R
+  /Next   61 0 R
+>>
+endobj
+61 0 obj
+<<
+  /Title  (@write_data)
+  /C      [0.0 0.0 0.4]
+  /Dest   [10 0 R /FitR 491 251 666 326]
+  /Parent 42 0 R
+  /Prev   60 0 R
+>>
+endobj
+42 0 obj
+<<
+  /Title  (netBundles)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 13 0 R
+  /First  43 0 R
+  /Last   61 0 R
+  /Count  19
+  /Prev   31 0 R
+>>
+endobj
+13 0 obj
+<<
+  /Title  (Schematic page 1)
+  /C      [0.4 0.0 0.0]
+  /Dest   [10 0 R /Fit]
+  /Parent 7 0 R
+  /First  14 0 R
+  /Last   42 0 R
+  /Count  5
+>>
+endobj
+8 0 obj
+<<
+>>
+endobj
+9 0 obj
+<<
+  /Im0 12 0 R
+>>
+endobj
+62 0 obj
+<<
+  /Type /XObject
+  /Subtype /Image
+  /ColorSpace /DeviceGray
+  /BitsPerComponent 8
+  /Width 44
+  /Height 44
+  /Filter [/ASCII85Decode /RunLengthDecode]
+  /Length 446
+>>
+stream
+T)e(2!%7@<!Y9b:jo5Ct@fuK+!C,l.rrL=bq>^OVq;;2QhA,qg!=\&FrrB>%!!%&orr=kR!!(@"
+rrA&W!!)`IrrBY0!!!G]rrCCE!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH
+!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`
+rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH
+!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!P`rrCLH!!!>ZrrC:A!!)NCrrBG)!!'^err@NH!!$3X
+rrMp=r;Zj#bh`:!NV`\V*p;G\!P/L3!!+.ViVrqB#58*"8>XQ+l2LkQb`+='!.Y~>
+endstream
+endobj
+12 0 obj
+<<
+  /Type /XObject
+  /Subtype /Image
+  /ColorSpace /DeviceRGB
+  /BitsPerComponent 8
+  /Width 44
+  /Height 44
+  /SMask 62 0 R
+  /Filter [/ASCII85Decode /RunLengthDecode]
+  /Length 5718
+>>
+stream
+JcC<$g]'u':4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK%L$61/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4hX.CGJY:1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+K'`MW1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':
+F>?UC1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':
+G;;pF1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+K(].f1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Qp&B4k:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<Grs*?FqJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rK)#@l1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rK)#@'1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4i':2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+K)#@'1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':
+2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@'1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':2)7pY1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@'1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<GrruEjiJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q_Z(W3:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#?d1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4g@_*AUBA1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<GrruEjiJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q_Z(W3:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#?d1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4g@_*AUBA1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<GrruEji
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q_Z(W3:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+K)#@'1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':
+2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@'1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':2)7pY1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@'1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@'1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4i':2)7pY1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<Grs"uQ,Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Qo)CR&:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rK)#@l1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<Grs*?FqJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK)#@l1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<Gos*$4nJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4i0=G;;pF1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK(].f1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qp&B+h:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qn,IA_:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rK'`MQ1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Qj8WIA:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5rJhg)Q1/<EV:4b5r
+Jhg)Q1/<FPs6fo;~>
+endstream
+endobj
+7 0 obj
+<<
+  /Type  /Outline
+  /First 13 0 R
+  /Last  13 0 R
+  /Count 1
+>>
+endobj
+xref
+0 63
+0000000000 65535 f 
+0000000009 00000 n 
+0000000211 00000 n 
+0000018215 00000 n 
+0000000361 00000 n 
+0000000488 00000 n 
+0000018334 00000 n 
+0000033176 00000 n 
+0000026530 00000 n 
+0000026551 00000 n 
+0000000701 00000 n 
+0000000844 00000 n 
+0000027237 00000 n 
+0000026369 00000 n 
+0000020274 00000 n 
+0000018600 00000 n 
+0000018744 00000 n 
+0000018903 00000 n 
+0000019082 00000 n 
+0000019248 00000 n 
+0000019422 00000 n 
+0000019611 00000 n 
+0000019770 00000 n 
+0000019929 00000 n 
+0000020112 00000 n 
+0000020883 00000 n 
+0000020435 00000 n 
+0000020579 00000 n 
+0000020739 00000 n 
+0000021186 00000 n 
+0000021056 00000 n 
+0000022974 00000 n 
+0000021363 00000 n 
+0000021512 00000 n 
+0000021666 00000 n 
+0000021822 00000 n 
+0000021993 00000 n 
+0000022169 00000 n 
+0000022324 00000 n 
+0000022480 00000 n 
+0000022642 00000 n 
+0000022814 00000 n 
+0000026207 00000 n 
+0000023147 00000 n 
+0000023288 00000 n 
+0000023460 00000 n 
+0000023638 00000 n 
+0000023796 00000 n 
+0000023960 00000 n 
+0000024125 00000 n 
+0000024290 00000 n 
+0000024455 00000 n 
+0000024618 00000 n 
+0000024781 00000 n 
+0000024941 00000 n 
+0000025098 00000 n 
+0000025260 00000 n 
+0000025422 00000 n 
+0000025584 00000 n 
+0000025742 00000 n 
+0000025900 00000 n 
+0000026062 00000 n 
+0000026586 00000 n 
+trailer
+<<
+  /Size 63
+  /Info 1 0 R
+  /Root 2 0 R
+>>
+startxref
+33258
+%%EOF

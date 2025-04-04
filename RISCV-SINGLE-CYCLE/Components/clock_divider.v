@@ -1,15 +1,24 @@
 module clock_divider(
-    input wire clk_in,
-    input wire reset,
-    output wire clk
+    input clk_in,
+    input resetC,
+    output clk
 );
-    assign clk = count[25];
-    reg [25:0] count; 
-    always@(posedge clk_in)
-        begin
-            if(reset == 1'b1)
-                count <= 0;
-            else 
-                count <= count + 1;    
-        end
+    assign clk = clk_in;
+//    reg [26:0] counter;
+    
+//    localparam DIVISOR = 100000000;
+    
+//    always@(posedge clk_in or posedge resetC) begin
+//        if(resetC) begin
+//            counter <= 0;
+//            clk <= 0;
+//        end else begin
+//            if(counter == DIVISOR - 1) begin
+//              counter <= 0;
+//              clk <= ~clk;
+//            end else begin  
+//                counter <= counter + 1;
+//            end  
+//            end
+//       end             
 endmodule

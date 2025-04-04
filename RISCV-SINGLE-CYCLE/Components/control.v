@@ -119,7 +119,8 @@ module control(
                       write_enable_register_file <= 1'b1;
                       read_enable_register_file <= 1'b1;
                       write_data_rd <= data_from_alu;
-
+                      addr_sel_for_pc <= 1'b0;
+                      data_for_alu <= immediate;
                       // signals for alu
                       sel_for_alu <= 1'b1; // alu operandB from immediate
 
@@ -145,7 +146,7 @@ module control(
                     case(funct3)
                         3'b000: begin 
                         if(data_from_rs1 == data_from_rs2) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -157,7 +158,7 @@ module control(
 
                         3'b101: begin 
                         if($signed(data_from_rs1) >= $signed(data_from_rs2)) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -168,7 +169,7 @@ module control(
 
                         3'b111: begin 
                         if(data_from_rs1 >= data_from_rs2) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -178,7 +179,7 @@ module control(
                         end // BGEU
 
                         3'b100: begin if($signed(data_from_rs1) < $signed(data_from_rs2)) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -188,7 +189,7 @@ module control(
                         end // BLT
 
                         3'b110: begin if(data_from_rs1 < data_from_rs2) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -198,7 +199,7 @@ module control(
                         end // BLTU
 
                         3'b001: begin if(data_from_rs1 != data_from_rs2) begin 
-                        address_to_pc_from_control <= address_from_pc + immediate;
+                        address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                         addr_sel_for_pc <= 1'b1; 
                         end 
                         else begin 
@@ -215,7 +216,7 @@ module control(
                       write_data_rd <= address_from_pc + 4;
 
                       // Signals for program counter
-                      address_to_pc_from_control <= address_from_pc + immediate;
+                      address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                       addr_sel_for_pc <= 1'b1;
 
                 end
@@ -226,7 +227,7 @@ module control(
                       write_data_rd <= address_from_pc + 4;
 
                       // Signals for program counter
-                      address_to_pc_from_control <= data_from_rs1 + immediate;
+                     address_to_pc_from_control <= $signed(address_from_pc) + $signed(immediate);
                       addr_sel_for_pc <= 1'b1;
 
                 end
